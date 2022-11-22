@@ -1,0 +1,31 @@
+body {
+    /* width: 550px;
+    height: 729px; */
+    margin: 20px;
+    /* left: 696px;
+    top: 126px; */
+    text-align: center;
+    /* background: #1F2937; */
+}
+.container{
+    margin: 0 auto;
+}
+.first_container{
+    padding: 20px 0px ;
+    color:white;
+    width: 550px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #6943FF;
+}
+.length, .volumes, .mass{
+    padding-top: 30px;
+    width: 550px;
+    height: 108.57px;
+    left: 25px;
+    top: 321px;
+    color: white;
+    background: #273549;
+    border-radius: 4.68077px 0px 0px 0px;
+    }

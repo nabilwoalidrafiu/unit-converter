@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="first_container">
+            <h2>Metric/Imperial Unit Conversion</h2>
+            <input id="input_el" type="number">
+            <button id="convert_el">Convert</button>
+        </div>
+        <div class="second_container">
+            <div class="length">
+                <h3>Length (Meter/Feet)</h3>
+                <h4><span id="input_span1">1</span> Meters = <span id="feet_result">3.281</span> Feet || <span id="input_span2">1</span> Feet = <span id="meter_result">0.304785</span> Meters </h4>
+            </div>
+
+            <div class="volumes">
+                <h3>Volume (Liters/Gallons)</h3>
+                <h4><span id="input_span3">1</span> Liters = <span id="gallon_result">0.264</span> Gallons || <span id="input_span4">1</span> Gallons = <span id="liter_result">3.281</span> Liters </h4>
+            </div>
+
+            <div class="mass">
+                <h3>Mass (Kilograms/Pounds)</h3>
+                <h4><span id="input_span5">1</span> Kilos = <span id="pound_result">0.264</span> Pounds || <span id="input_span6">1</span> Pounds = <span id="kilos_result">3.281</span> Kilos </h4>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
